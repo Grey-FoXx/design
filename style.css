@@ -91,7 +91,6 @@ ul {
 
 .placeholder {
     display: flex;
-    flex-shrink:0;
     justify-content: center;
     align-items: center;
     background-color: #7e7e7e;
