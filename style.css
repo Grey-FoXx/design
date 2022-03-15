@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin-left: 0;
+    margin: 0;
     padding: 8px;
 }
 
@@ -122,9 +122,11 @@ ul {
 
 .boxes {
     display: flex;
-    gap: 100px;
-    margin-left: 170px;
+    flex: 1;
+    justify-content: space-around;
+    gap: 30px;
     margin-bottom: 250px;
+    
 }
 
 .box {
